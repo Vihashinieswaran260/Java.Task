@@ -1,0 +1,17 @@
+package org.controlstatement1;
+public class controlstatement1 {
+	private void main(int a) {
+		if(a%2==0) {
+			System.out.println("even");
+		}
+		else {
+			System.out.println("odd");
+		}
+	}
+	public static void main(String[]args) {
+		controlstatement1 b=new controlstatement1();
+		b.main(7);
+  }
+}
+Output:
+Odd
