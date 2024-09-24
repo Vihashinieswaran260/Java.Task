@@ -1,54 +1,80 @@
-class Stringoperation1  
-{  
-public static void main(String ar[]) { 
-String s = "Vihashini"
-    int length = s.length();
-    System.out.println(length);
- //charAt
-    char charat = s.charAt(2);
-    System.out.println(charat);
-//indexof
-    int indexof = s.indexOf("a");
-    System.out.println(indexof);
-//lastindexof
-    int lio = s.lastIndexOf("a");
-    System.out.println(lio);
-//isempty
-    boolean empty = s.isEmpty();
-    System.out.println(empty);
-//contains
-    boolean contain = s.contains("i");
-    System.out.println(contain);
-//trim
-    String p = " Vihashini ";
-    String trim=p.trim();
-    System.out.println(trim);
-//startswith
-    boolean sw=s.startsWith("Vi");
-    System.out.println(sw);
-//endswith
-    boolean ew=s.endsWith("i");
-    System.out.println(ew);
-//uppercase
-    String uc=s.toUpperCase();
-    System.out.println(uc);
-//lowercase
-    String lc = s.toLowerCase();
-    System.out.println(lc);
-//equal
-    boolean e=s.equals(p);
-    System.out.println(e);
-//equalignorecase
-    boolean eic=s.equalsIgnoreCase(p);
-    System.out.println(eic);
-//replace
-    String replace =s.replace("V", "h");
-    System.out.println(replace);
-//replaceall
-    String ra = s.replaceAll(s, "vIHASHINI");
-    System.out.println(ra);
-//sunstring
-    String ss = s.substring(3);
-    System.out.println(ss);
-    String s1=s.substring(3,5);
-    System.out.println(s1);
+package org.String;
+import java.io.File;
+public class A {
+	public static void main(String[] args)
+    {
+		String s="Vihashini";
+	    int length = s.length();
+        System.out.println(length);
+      //charAt
+        char charat = s.charAt(2);
+    	System.out.println(charat);
+     //indexof
+    	int indexof = s.indexOf("a");
+    	System.out.println(indexof);
+     //lastindexof
+    	int lio = s.lastIndexOf("a");
+        System.out.println(lio);
+     //isempty
+    	boolean empty = s.isEmpty();
+    	System.out.println(empty);
+     //contains
+    	boolean contain = s.contains("i");
+    	System.out.println(contain);
+     //trim
+    	String p = " Vihashii ";
+    	String trim=p.trim();
+    	System.out.println(trim);
+     //startswith
+    	boolean sw=s.startsWith("Vi");
+    	System.out.println(sw);
+     //endswith
+    	boolean ew=s.endsWith("i");
+    	System.out.println(ew);
+     //uppercase
+    	String uc=s.toUpperCase();
+    	System.out.println(uc);
+     //lowercase
+    	String lc = s.toLowerCase();
+    	System.out.println(lc);
+     //equal
+    	boolean e=s.equals(p);
+    	System.out.println(e);
+     //equalignorecase
+    	boolean eic=s.equalsIgnoreCase(p);
+    	System.out.println(eic);
+     //replace
+    	String replace =s.replace("V", "Vii");
+    	System.out.println(replace);
+     //replaceall
+    	String ra = s.replaceAll(s, "Dharshini");
+    	System.out.println(ra);
+     //sunstring
+    	String ss = s.substring(3);
+    	System.out.println(ss);
+    	String s1=s.substring(3,5);
+    	System.out.println(s1);
+ }
+}
+Output:
+9
+h
+3
+3
+false
+true
+Vihashii
+true
+true
+VIHASHINI
+vihashini
+false
+false
+Viiihashini
+Dharshini
+ashini
+as
+
+
+
+
