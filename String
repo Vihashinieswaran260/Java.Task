@@ -3,8 +3,8 @@ import java.io.File;
 public class A {
 	public static void main(String[] args)
     {
-		String s="Vihashini";
-	    int length = s.length();
+	String s="Vihashini";
+	int length = s.length();
         System.out.println(length);
       //charAt
         char charat = s.charAt(2);
