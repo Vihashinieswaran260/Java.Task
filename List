@@ -1,0 +1,46 @@
+package org.list;
+import java.util.List;
+import java.util.ArrayList;
+
+public class Company {
+	public static void main(String[]args)
+	{
+		List li=new ArrayList();
+		li.add("Vihashini");
+		li.add(10);
+		li.add("null");
+		li.add(true);
+		li.add(600);
+		li.add(false);
+		System.out.println(li);
+		System.out.println(li.size());
+		li.remove(4);
+		System.out.println(li);
+		int lastindexof=li.lastIndexOf(500);
+        System.out.println(lastindexof);
+        boolean contains=li.contains(20);
+        System.out.println(contains);
+        Object object =li.get(3);
+        System.out.println(object);
+        Object obj=li.get(0);
+        System.out.println(obj);
+        System.out.println(li);
+        System.out.println("===============");
+        for(int i=0;i<li.size();i++) {
+              System.out.println(li.get(i));
+        }}}
+Output:
+[Vihashini, 10, null, true, 600, false]
+6
+[Vihashini, 10, null, true, false]
+-1
+false
+true
+Vihashini
+[Vihashini, 10, null, true, false]
+===============
+Vihashini
+10
+null
+true
+false
